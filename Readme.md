@@ -15,3 +15,13 @@
 ## Issues
 
 If any issues happen while using the rules set forth by this repository, please raise issues in github clearly mentioning what issues are happening and how to recreate them.
+
+## Existing Project
+
+If you want to use it on existing project, you can copy all the files as mentioned above but have to apply prettier on the complete project via command line.
+
+```shell
+./node_modules/.bin/prettier --write "**/*.js"
+./node_modules/.bin/prettier --write "**/*.css"
+./node_modules/.bin/prettier --write "**/*.scss"
+```
