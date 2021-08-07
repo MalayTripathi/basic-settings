@@ -2,15 +2,27 @@
 
 ## Javascript
 
-1. Copy all files and folders except package.json and package-lock.json in root of your project repository.
-2. Install prettier as a dev dependency by running: npm i prettier -D
-3. Install Eslint related dev dependencies since you are writing your code in Javascript
+1. Copy all files and folders except package.json, package-lock.json, tsconfig.json, and tslint.json in root of your project repository.
+2. Install prettier and eslint related dev dependencies by running:
+
+```shell
+npm i prettier -D
+npm i eslint -D
+npm i eslint-config-prettier -D
+npm i eslint-config-standard -D
+```
 
 ## Typescript
 
-1. Copy files except package.json and package-lock.json in your project repository.
-2. Install prettier as a dev dependency by running: npm i prettier -D
-3. Install Tslint related dev dependencies since you are writing your code in Typescript
+1. Copy files except package.json, package-lock.json, and .eslintrc.json in root of your project repository.
+2. Install prettier and tslint related dev dependencies by running:
+
+```shell
+npm i prettier -D
+npm i tslint -D
+npm i tslint-config-prettier -D
+npm i tslint-config-semistandard -D
+```
 
 ## Issues
 
