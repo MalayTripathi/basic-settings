@@ -1,28 +1,16 @@
 # New Project
 
-## Javascript
-
-1. Copy all files and folders except package.json, package-lock.json, tsconfig.json, and tslint.json in root of your project repository.
+1. Copy all files and folders except package.json, package-lock.json in root of your project repository.
 2. Install prettier and eslint related dev dependencies by running:
 
 ```shell
 npm i prettier -D
-npm i eslint -D
+npm i eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin -D
 npm i eslint-config-prettier -D
-npm i eslint-config-standard -D
+
 ```
 
-## Typescript
-
-1. Copy files except package.json, package-lock.json, and .eslintrc.json in root of your project repository.
-2. Install prettier and tslint related dev dependencies by running:
-
-```shell
-npm i prettier -D
-npm i tslint -D
-npm i tslint-config-prettier -D
-npm i tslint-config-semistandard -D
-```
+3. Configure TSConfig and Eslintrc as per your project.
 
 ## Issues
 

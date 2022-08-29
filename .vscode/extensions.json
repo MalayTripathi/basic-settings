@@ -3,8 +3,6 @@
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "editorconfig.editorconfig",
-    "coenraads.bracket-pair-colorizer",
-    "ms-vscode.vscode-typescript-tslint-plugin"
+    "editorconfig.editorconfig"
   ]
 }
