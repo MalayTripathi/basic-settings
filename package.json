@@ -4,8 +4,7 @@
   "description": "Must have files and npm packages in your repositories",
   "main": "index.js",
   "scripts": {
-    "lint": "tslint -p . -t stylish",
-    "lint-fix": "tslint -p . -t stylish --fix",
+    "lint": "eslint . --ext .js,.ts --ignore-path .eslintignore",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Malay Tripathi",
